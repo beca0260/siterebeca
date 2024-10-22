@@ -9,11 +9,17 @@ body{
        justify-content: center;
     }
 
-    ul {
+    .nav_lista {
     display: flex;   
     list-style: none;
     font-size: 40px;
     color: aliceblue;
     gap: 20px;
     text-transform: uppercase;
+    justify-content: center;
     }
+   .nav_item:hover{
+      background-color: rgb(122, 194, 223);
+      color: black;
+      cursor: pointer;
+   }
